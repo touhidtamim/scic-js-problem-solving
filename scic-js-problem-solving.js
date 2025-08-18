@@ -80,3 +80,16 @@ function sumArray(arr) {
 console.log(sumArray([1, 2, 3, 4]));
 console.log(sumArray([3, 8, 2, 5]));
 console.log(sumArray([5, 7, 4, 9]));
+
+// 7th problem
+function findEvens(arr) {
+  let evens = [];
+  for (let num of arr) {
+    if (num % 2 === 0) {
+      evens.push(num);
+    }
+  }
+  return evens;
+}
+
+console.log(findEvens([1, 2, 3, 4, 5, 6]));
