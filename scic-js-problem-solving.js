@@ -67,3 +67,16 @@ function removeDuplicates(arr) {
 
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4]));
 console.log(removeDuplicates([5, 6, 7, 7, 8, 8]));
+
+// 6th problem
+function sumArray(arr) {
+  let sum = 0;
+  for (let num of arr) {
+    sum += num;
+  }
+  return sum;
+}
+
+console.log(sumArray([1, 2, 3, 4]));
+console.log(sumArray([3, 8, 2, 5]));
+console.log(sumArray([5, 7, 4, 9]));
