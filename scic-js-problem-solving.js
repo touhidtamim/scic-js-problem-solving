@@ -53,3 +53,17 @@ function findMax(arr) {
 
 console.log(findMax([5, 1, 9, 3]));
 console.log(findMax([10, 20, 5]));
+
+// 5th problem
+function removeDuplicates(arr) {
+  let unique = [];
+  for (let num of arr) {
+    if (!unique.includes(num)) {
+      unique.push(num);
+    }
+  }
+  return unique;
+}
+
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4]));
+console.log(removeDuplicates([5, 6, 7, 7, 8, 8]));
