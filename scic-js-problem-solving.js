@@ -27,7 +27,7 @@ console.log(reverseString("hello"));
 console.log(reverseString("Touhid"));
 console.log(reverseString("Bangladesh"));
 
-// 3rd Problem
+// Problem 3
 function isPalindrome(str) {
   let reversed = "";
   for (let i = str.length - 1; i >= 0; i--) {
@@ -40,7 +40,7 @@ console.log(isPalindrome("level"));
 console.log(isPalindrome("madam"));
 console.log(isPalindrome("tamim"));
 
-// 4th problem
+// Problem 4
 function findMax(arr) {
   let max = arr[0];
   for (let num of arr) {
@@ -54,7 +54,7 @@ function findMax(arr) {
 console.log(findMax([5, 1, 9, 3]));
 console.log(findMax([10, 20, 5]));
 
-// 5th problem
+// Problem 5
 function removeDuplicates(arr) {
   let unique = [];
   for (let num of arr) {
@@ -68,7 +68,7 @@ function removeDuplicates(arr) {
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4]));
 console.log(removeDuplicates([5, 6, 7, 7, 8, 8]));
 
-// 6th problem
+// Problem 6
 function sumArray(arr) {
   let sum = 0;
   for (let num of arr) {
@@ -81,7 +81,7 @@ console.log(sumArray([1, 2, 3, 4]));
 console.log(sumArray([3, 8, 2, 5]));
 console.log(sumArray([5, 7, 4, 9]));
 
-// 7th problem
+// Problem 7
 function findEvens(arr) {
   let evens = [];
   for (let num of arr) {
@@ -94,7 +94,7 @@ function findEvens(arr) {
 
 console.log(findEvens([1, 2, 3, 4, 5, 6]));
 
-// 8th problem
+// Problem 8
 function capitalizeWords(str) {
   let words = str.split(" ");
   for (let i = 0; i < words.length; i++) {
@@ -105,7 +105,7 @@ function capitalizeWords(str) {
 
 console.log(capitalizeWords("hello tamim"));
 
-// 9th problem
+// Problem 9
 function factorial(n) {
   let result = 1;
   for (let i = 1; i <= n; i++) {
@@ -116,7 +116,7 @@ function factorial(n) {
 
 console.log(factorial(5));
 
-// 10th problem
+// Problem 10
 function pingPong() {
   for (let i = 1; i <= 20; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
