@@ -23,9 +23,9 @@ function countVowels(str) {
   return count;
 }
 
-console.log(reverseString("hello"));
-console.log(reverseString("Touhid"));
-console.log(reverseString("Bangladesh"));
+console.log(countVowels("hello"));
+console.log(countVowels("Touhid"));
+console.log(countVowels("Bangladesh"));
 
 // Problem 3
 function isPalindrome(str) {
